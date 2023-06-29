@@ -559,7 +559,7 @@ span{
 .about{
     flex-direction: column-reverse;
     text-align: center;
-    margin-top: 600px;
+    margin-top: 450px;
     font-size: 10px;
    
 }
@@ -621,7 +621,7 @@ span{
     }
     .home .text{
         text-align: center;
-        align-items: center;
+      
 
     }
 
