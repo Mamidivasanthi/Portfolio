@@ -19,7 +19,7 @@
 }
 .container-fluid{
     width:100vw;
-    position:fixed;
+   
     background: var(--bg-color);
     left:0;
     padding-top:30px;
