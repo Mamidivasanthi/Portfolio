@@ -53,6 +53,7 @@ body{
 }
 
 .navbar{
+    margin-top:0%;
     width:100vw;
 background: none;
    align-items: center;
@@ -628,6 +629,10 @@ span{
       
 
     }
+ .about-content{
+  align-items:center;
+  text-align:center;
+  margin-left:0%;
 
 
     
