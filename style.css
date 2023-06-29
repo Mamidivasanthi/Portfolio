@@ -40,7 +40,7 @@ body{
     position:fixed;
     top: 0;
    left:0;
-   width:100%;
+   width:100vw;
    z-index: 100;
    background: none;
 }
@@ -67,6 +67,9 @@ background: none;
 }
 a.navbar-brand{
     font-size: 30px;
+}
+.text{
+ margin-left:3rem;
 }
 @media only screen and(max-width:600px) {
     .navbar{
@@ -619,8 +622,9 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
-    .home .text{
+     .text{
         text-align: center;
+      margin-left:0%;
       
 
     }
