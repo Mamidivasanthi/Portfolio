@@ -63,6 +63,7 @@ body{
     width:100vw;
 background: none;
    align-items: center;
+ padding:10px;
     
 }
 .nav-item {
@@ -79,6 +80,7 @@ a.navbar-brand{
     .navbar{
         align-items:flex-start;
         float: left;
+     padding:10px;
     }
 }
 .navbar-toggler-icon{
