@@ -621,7 +621,7 @@ span{
 }
 @media (max-width:365px) {
     .about-img img{
-        width:30vw;
+        width:40vw;
         height:40vh;
     }
     .footer{
