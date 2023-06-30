@@ -17,12 +17,19 @@
     --shadow-color:rgba(0,0,0,.2);
     --header-color:rgb(118, 177, 230,.9);
 }
+
 .container-fluid{
     width:100vw;
-   
+    position:fixed;
     background: var(--bg-color);
     left:0;
+    top:0;
     padding-top:30px;
+}
+.about{
+    text-align: center;
+    margin-left:auto;
+    margin-right:auto;
 }
 html{
    
@@ -40,7 +47,7 @@ body{
     position:fixed;
     top: 0;
    left:0;
-   width:100vw;
+   width:100%;
    z-index: 100;
    background: none;
 }
@@ -53,7 +60,6 @@ body{
 }
 
 .navbar{
-    margin-top:0%;
     width:100vw;
 background: none;
    align-items: center;
@@ -68,9 +74,6 @@ background: none;
 }
 a.navbar-brand{
     font-size: 30px;
-}
-.text{
- margin-left:3rem;
 }
 @media only screen and(max-width:600px) {
     .navbar{
@@ -256,7 +259,7 @@ span{
     justify-content: center;
     align-items:center;
     gap:10px;
-    margin-left: 4rem;
+    margin-left:0rem;
     margin-top: 5rem;
    
     min-height: 100vh;
@@ -435,6 +438,9 @@ span{
     font-size: 2rem;
     color: var(--text-color);
 }
+.text{
+    margin-left: 3rem;
+}
 @media(max-width:1200px){
     html{
         font-size: medium;
@@ -563,7 +569,7 @@ span{
 .about{
     flex-direction: column-reverse;
     text-align: center;
-    margin-top: 4o0px;
+    margin-top: 600px;
     font-size: 10px;
    
 }
@@ -623,17 +629,16 @@ span{
         text-align: center;
         margin-top: 2rem;
     }
-     .text{
+    .text{
         text-align: center;
-      margin-left:0%;
-      
+        align-items: center;
+        margin-left: 0rem;
 
     }
- .about-content{
-  align-items:center;
-  text-align:center;
-  margin-left:0%;
+    .about{
+        margin-left:0rem;
 
+    }
 
     
 }
