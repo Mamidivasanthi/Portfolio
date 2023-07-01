@@ -265,7 +265,13 @@ span{
     margin-top: 5rem;
    
     min-height: 100vh;
-
+   
+        flex-direction: column-reverse;
+        text-align: center;
+        margin-top: 600px;
+        font-size: 10px;
+       
+ 
 }
 
 .heading{
