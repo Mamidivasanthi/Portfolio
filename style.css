@@ -1,4 +1,4 @@
- @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 *{
     margin:0;
     padding: 0;
@@ -460,7 +460,9 @@ span{
     }
     .about{
         margin-top: 500px;
+
     }
+    
 }
 @media(max-width:1024px)
 {
@@ -475,6 +477,10 @@ span{
     }
    .profession-container .overlay{
         right:-15rem;
+    }
+    .about-img img{
+        width:20vw;
+        height:30vh;
     }
 }
 @media(max-width:991px){
@@ -502,6 +508,11 @@ span{
     .about{
         margin-top: 300px;
     }
+    .about-img img{
+        width:20vw;
+        height:30vh;
+    }
+
 }
 @media(max-width:768px){
 .home{
@@ -581,12 +592,10 @@ span{
 .about-content h2{
     text-align: center;
 }
-.about-img img{
-    width:30vw;
-    margin-top: 2rem;
-    height:40vh;
-    
-}
+ .about-img img{
+        width:20vw;
+        height:30vh;
+    }
 .services h2,.portfolio h2{
     margin-bottom: 3rem;
     margin-top: 3rem;
@@ -654,23 +663,23 @@ span{
         padding: 0 3% 30rem;
     }
     .profession-box .profession:nth-child(1){
-            transform: rotate(-90deg) translate(-110px,-220px);
+    transform: rotate(-90deg) translate(-110px,-220px);
     }
-    .profession-box .profession:nth-child(2){
-        transform: rotate(0deg) translate(5px,-335px);
+     .profession-box .profession:nth-child(2){
+     transform: rotate(0deg) translate(5px,-335px);
 }
 .profession-box .profession:nth-child(3){
     transform: rotate(90deg) translate(-105px,-440px);
 }
 .profession-box .profession:nth-child(4){
-    transform: rotate(180deg) translate(210px,-335px);
+     transform: rotate(180deg) translate(210px,-335px);
 }
 .contact form .input-box input{
     width:100%;
 }
  .about-img img{
-        width:40vw;
-        height:50vh;
+        width:20vw;
+        height:30vh;
     }
     .footer{
         flex-direction: column-reverse;
