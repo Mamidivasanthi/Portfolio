@@ -9,6 +9,10 @@
     scroll-behavior: smooth;
     font-family: 'Poppins', sans-serif;
 }
+body{
+    background-color: #110a2f;
+}
+
 :root{
     --bg-color:#fdfdfd;
     --text-color:#333;
@@ -20,9 +24,9 @@
 .about-img img{
   
     border-radius: 30%;
-    width:15vw;
-   height:70vh;
-    margin-top: 2rem;
+    width:18vw;
+   height:100vh;
+  
     margin-right: 20px;
    
 }
@@ -35,11 +39,85 @@
     top:0;
     padding-top:30px;
 }
+.about_wrapper ul.nav-pills {
+    border: 1px solid var(--gray-color);
+    border-radius: 50px;
+}
+
+.about_wrapper ul li .nav-link {
+    border-radius: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    transition: all 0.45s cubic-bezier(0, 0, 0.2, 1);
+    display: inline-block;
+    color: var(--text-gray);
+    border: 0;
+    transition: 0.3s;
+}
+
+.about_wrapper ul li .nav-link.active {
+    background-color: var(--primary-color);
+}
+
+.about_wrapper .single-progress {
+    margin-top: 26px;
+    position: relative;
+    overflow: hidden;
+}
+
+.about_wrapper .single-progress .progress {
+    height: 4px;
+    border-radius: 4px;
+    box-shadow: none;
+    background-color: var(--bg-white);
+    overflow: visible;
+}
+
+.about_wrapper .progress-bar {
+    background-color:white;
+    background-image: var(--gradient-color);
+}
+
+.about_wrapper .single-progress h6 {
+    text-align: left;
+}
+
+.about_wrapper .single-progress .label {
+    position: absolute;
+    right: 0;
+    top: 0;
+    color: var(--text-gray);
+    font-size: 15px;
+}
+
+.about_wrapper .tab-pane li {
+    color: var(--gray-color);
+    font-size: 16px;
+    margin-bottom: 15px;
+    font-weight: 300;
+    list-style: none;
+}
+
+.about_wrapper .tab-pane li a {
+    font-weight: 500;
+    display: block;
+    color: var(--text-gray);
+}
 .about{
     text-align: center;
     margin-left:auto;
     margin-right:auto;
     justify-content: center;
+   
+}
+.about-content p{
+    font-size: 15px;
+    color:white;
+    align-items: center;
+    justify-content: left;
+}
+.about-content a{
+    background-color: aliceblue;
 }
 html{
    
@@ -226,7 +304,7 @@ a.navbar-brand{
     width:560px;
     height:560px;
    
-    border:3px solid var(--main-color);
+    border:3px solid aliceblue;
     border-radius: 50%;
 }
 .profession-container .overlay{
@@ -235,9 +313,9 @@ a.navbar-brand{
     right:0;
     width:0;
     height: 0;
-    border-top: 384px solid var(--main-color,);
-    border-right: 384px solid var(--main-color);
-    border-bottom: 384px solid var(--main-color);
+    border-top: 384px solid rgb(200, 213, 224);
+    border-right: 384px solid rgb(200, 213, 224);
+    border-bottom: 384px solid rgb(200, 213, 224);
     border-left:384px solid transparent;
   
 }
@@ -260,7 +338,7 @@ a.navbar-brand{
     border-radius: 30%;
     width:auto;
    height:70vh;
-    margin-top: 2rem;
+    margin-top:1rem;
     margin-right: 20px;
    
 }
@@ -274,7 +352,7 @@ span{
     align-items:center;
     gap:10px;
     margin-left:0rem;
-    margin-top: 2rem;
+    margin-top: 20px;
    
     min-height: 100vh;
    
@@ -322,6 +400,9 @@ span{
 .services-box i{
     font-size: 4rem;
     color: var(--main-color);
+}
+.services-box h3{
+    color:#bb8fd8;
 }
 .services-container .services-box:hover
 {
@@ -433,11 +514,11 @@ span{
     align-items: center;
     flex-wrap: wrap;
     padding:2rem 7%;
-    background: var(--main-color);
+    background: rgb(200, 213, 224);
 }
 .footer-text p{
     font-size:1.2rem;
-    color:var(--white-color);
+    color:rgb(3, 27, 46);
 
 }
 .footer-icontop a{
@@ -466,7 +547,14 @@ span{
     html{
         font-size: medium;
     }
-   
+    about_wrapper ul.nav-pills{
+        width:100%;
+        margin:auto;
+        border:0;
+    }
+    .about_wrapper ul li .nav-link {
+        font-size: 13px;
+    }
     .home .profession-container{
         height:85.8rem;
     }
@@ -487,6 +575,14 @@ span{
 {
     .header{
         padding:2rem 3%;
+    }
+    about_wrapper ul.nav-pills{
+        width:100%;
+        margin:auto;
+        border:0;
+    }
+    .about_wrapper ul li .nav-link {
+        font-size: 13px;
     }
     section{
         padding: 10rem 3% 2rem;
@@ -539,7 +635,14 @@ span{
     justify-content: center;
     text-align: center;
 }
-
+about_wrapper ul.nav-pills{
+    width:100%;
+    margin:auto;
+    border:0;
+}
+.about_wrapper ul li .nav-link {
+    font-size: 13px;
+}
 .home-content .social-media a{
     margin:2.5rem .75rem 3rem;
 }
